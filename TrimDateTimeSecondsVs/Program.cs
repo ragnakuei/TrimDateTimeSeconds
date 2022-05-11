@@ -38,4 +38,7 @@ public class TestRunner
 
     [Benchmark]
     public void TestMethod4() => new ParkingMinutes04Calculator().Minutes(_from, _to);
+
+    [Benchmark]
+    public void TestMethod5() => new ParkingMinutes05Calculator().Minutes(_from, _to);
 }
